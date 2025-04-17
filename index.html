@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskPlanner Universitário</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>TaskPlanner Universitário</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Cadastrar Nova Tarefa</h2>
+      <form id="task-form">
+        <label for="title">Título:</label>
+        <input type="text" id="title" name="title" required>
+        <label for="description">Descrição:</label>
+        <textarea id="description" name="description" required></textarea>
+        <label for="deadline">Prazo:</label>
+        <input type="date" id="deadline" name="deadline" required>
+        <label for="priority">Prioridade:</label>
+        <select id="priority" name="priority">
+          <option value="baixa">Baixa</option>
+          <option value="media">Média</option>
+          <option value="alta">Alta</option>
+        </select>
+        <button type="submit">Salvar Tarefa</button>
+      </form>
+    </section>
+    <section id="tasks-section">
+      <h2>Tarefas</h2>
+      <div id="task-list"></div>
+    </section>
+  </main>
+</body>
+<script src="script.js"></script>
+</html>
