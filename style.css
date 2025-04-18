@@ -37,10 +37,17 @@ body {
   button:hover {
     background-color: #0056b3;
   }
-  footer{
-    display: flex;
-    font-size: 10px;
-    color: #666;
-    justify-content: center;
-    align-items: center;
-  }
+
+
+footer {
+  position: fixed; /* Fixa o footer na parte inferior */
+  bottom: 0; /* Alinha na parte inferior */
+  width: 100%; /* Ocupa toda a largura da tela */
+  text-align: center; /* Centraliza o texto dentro do footer */
+  background-color: #f1f1f1; /* Cor de fundo (opcional) */
+  padding: 10px 0; /* Espaço interno */
+}
+
+
+
+
