@@ -37,3 +37,10 @@ body {
   button:hover {
     background-color: #0056b3;
   }
+  footer{
+    display: flex;
+    font-size: 10px;
+    color: #666;
+    justify-content: center;
+    align-items: center;
+  }
